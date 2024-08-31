@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Learning Objectives}{5}{0}{1}
+\beamer@sectionintoc {2}{Deep Generative Models}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{HML: Chap 17}{7}{0}{2}
+\beamer@sectionintoc {3}{Autoencoder and its Extensions}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{HML: Chap 17}{8}{0}{3}
+\beamer@sectionintoc {4}{Variational Autoencoder}{12}{0}{4}
+\beamer@subsectionintoc {4}{1}{HML: Chap 17}{12}{0}{4}
+\beamer@sectionintoc {5}{Generative Adversarial Networks}{14}{0}{5}
+\beamer@subsectionintoc {5}{1}{PML: Chap 17}{26}{0}{5}
+\beamer@subsectionintoc {5}{2}{HML: Chap 17}{27}{0}{5}
+\beamer@sectionintoc {6}{Bibliography}{29}{0}{6}

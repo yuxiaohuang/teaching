@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{goodfellow2014generative}
+I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair,
+  A.~Courville, and Y.~Bengio.
+\newblock {Generative Adversarial Nets}.
+\newblock In {\em NeurIPS}, pages 2672--2680, 2014.
+
+\bibitem{radford2015unsupervised}
+A.~Radford, L.~Metz, and S.~Chintala.
+\newblock {Unsupervised Representation Learning with Deep Convolutional
+  Generative Adversarial Networks}.
+\newblock {\em arXiv preprint arXiv:1511.06434}, 2015.
+
+\end{thebibliography}

@@ -1,0 +1,7 @@
+\beamer@slide {fig:ae}{8}
+\beamer@slide {fig:sae}{10}
+\beamer@slide {fig:vae}{12}
+\beamer@slide {fig:gans}{16}
+\beamer@slide {eq:loss_function}{19}
+\beamer@slide {eq:optimization}{20}
+\beamer@slide {fig:training_gan}{26}
