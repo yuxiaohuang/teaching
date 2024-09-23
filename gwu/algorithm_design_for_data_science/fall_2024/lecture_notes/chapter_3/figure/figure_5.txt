@@ -1,0 +1,142 @@
+digraph structs {
+rankdir = LR;
+node [shape=record];
+
+21 [label="(21)", shape=none]
+22 [label="(22)", shape=none]
+23 [label="(23)", shape=none]
+24 [label="(24)", shape=none]
+25 [label="(25)", shape=none]
+26 [label="(26)", shape=none]
+27 [label="(27)", shape=none]
+28 [label="(28)", shape=none]
+29 [label="(29)", shape=none]
+30 [label="(30)", shape=none]
+
+21 -> 22 -> 23 -> 24 -> 25 -> 26 -> 27 -> 28 -> 29 -> 30 [style = invis]
+
+stack11 [label="<f5>|<f6>|<f7>3"];
+stack12 [label="<f2>|<f3>|<f4>|<f5>f(2)|<f6>f(3)|<f7>f(5)"];
+
+stack21 [label="<f5>|<f6>|<f7>3"];
+stack22 [label="<f2>|<f3>|<f4>f(1)|<f5>f(2)|<f6>f(3)|<f7>f(5)"];
+
+stack31 [label="<f5>|<f6>1|<f7>3"];
+stack32 [label="<f2>|<f3>|<f4>|<f5>f(2)|<f6>f(3)|<f7>f(5)"];
+
+stack41 [label="<f5>|<f6>1|<f7>3"];
+stack42 [label="<f2>|<f3>|<f4>f(0)|<f5>f(2)|<f6>f(3)|<f7>f(5)"];
+
+stack51 [label="<f5>0|<f6>1|<f7>3"];
+stack52 [label="<f2>|<f3>|<f4>|<f5>f(2)|<f6>f(3)|<f7>f(5)"];
+
+stack61 [label="<f5>|<f6>0 + 1|<f7>3"];
+stack62 [label="<f2>|<f3>|<f4>|<f5>|<f6>f(3)|<f7>f(5)"];
+
+stack71 [label="<f5>|<f6>1|<f7>3"];
+stack72 [label="<f2>|<f3>|<f4>|<f5>f(1)|<f6>f(3)|<f7>f(5)"];
+
+stack81 [label="<f5>1|<f6>1|<f7>3"];
+stack82 [label="<f2>|<f3>|<f4>|<f5>|<f6>f(3)|<f7>f(5)"];
+
+stack91 [label="<f5>|<f6>1 + 1|<f7>3"];
+stack92 [label="<f2>|<f3>|<f4>|<f5>|<f6>|<f7>f(5)"];
+
+stack101 [label="<f5>|<f6>|<f7>2 + 3"];
+stack102 [label="<f2>|<f3>|<f4>|<f5>|<f6>|<f7>"];
+
+stack11 -> stack21 -> stack31 -> stack41 -> stack51 -> stack61 -> stack71 -> stack81 -> stack91 -> stack101 [style = invis]
+stack12 -> stack22 -> stack32 -> stack42 -> stack52 -> stack62 -> stack72 -> stack82 -> stack92 -> stack102 [style = invis]
+
+11 [label="(11)", shape=none]
+12 [label="(12)", shape=none]
+13 [label="(13)", shape=none]
+14 [label="(14)", shape=none]
+15 [label="(15)", shape=none]
+16 [label="(16)", shape=none]
+17 [label="(17)", shape=none]
+18 [label="(18)", shape=none]
+19 [label="(19)", shape=none]
+20 [label="(20)", shape=none]
+
+11 -> 12 -> 13 -> 14 -> 15 -> 16 -> 17 -> 18 -> 19 -> 20 [style = invis]
+
+stack111 [label="<f5>|<f6>1|<f7>1"];
+stack112 [label="<f3>|<f4>|<f5>f(3)|<f6>f(4)|<f7>f(5)"];
+
+stack121 [label="<f5>|<f6>|<f7>1 + 1"];
+stack122 [label="<f3>|<f4>|<f5>|<f6>f(4)|<f7>f(5)"];
+
+stack131 [label="<f5>|<f6>|<f7>2"];
+stack132 [label="<f3>|<f4>|<f5>f(2)|<f6>f(4)|<f7>f(5)"];
+
+stack141 [label="<f5>|<f6>|<f7>2"];
+stack142 [label="<f3>|<f4>f(1)|<f5>f(2)|<f6>f(4)|<f7>f(5)"];
+
+stack151 [label="<f5>|<f6>1|<f7>2"];
+stack152 [label="<f3>|<f4>|<f5>f(2)|<f6>f(4)|<f7>f(5)"];
+
+stack161 [label="<f5>|<f6>1|<f7>2"];
+stack162 [label="<f3>|<f4>f(0)|<f5>f(2)|<f6>f(4)|<f7>f(5)"];
+
+stack171 [label="<f5>0|<f6>1|<f7>2"];
+stack172 [label="<f3>|<f4>|<f5>f(2)|<f6>f(4)|<f7>f(5)"];
+
+stack181 [label="<f5>|<f6>0 + 1|<f7>2"];
+stack182 [label="<f3>|<f4>|<f5>|<f6>f(4)|<f7>f(5)"];
+
+stack191 [label="<f5>|<f6>|<f7>1 + 2"];
+stack192 [label="<f3>|<f4>|<f5>|<f6>|<f7>f(5)"];
+
+stack201 [label="<f5>|<f6>|<f7>3"];
+stack202 [label="<f3>|<f4>|<f5>|<f6>f(3)|<f7>f(5)"];
+
+stack111 -> stack121 -> stack131 -> stack141 -> stack151 -> stack161 -> stack171 -> stack181 -> stack191 -> stack201 [style = invis]
+stack112 -> stack122 -> stack132 -> stack142 -> stack152 -> stack162 -> stack172 -> stack182 -> stack192 -> stack202 [style = invis]
+
+1 [label="(1)", shape=none]
+2 [label="(2)", shape=none]
+3 [label="(3)", shape=none]
+4 [label="(4)", shape=none]
+5 [label="(5)", shape=none]
+6 [label="(6)", shape=none]
+7 [label="(7)", shape=none]
+8 [label="(8)", shape=none]
+9 [label="(9)", shape=none]
+10 [label="(10)", shape=none]
+
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 [style = invis]
+
+stack211 [label="<f5>|<f6>|<f7>"];
+stack212 [label="<f3>|<f4>|<f5>|<f6>|<f7>f(5)"];
+
+stack221 [label="<f5>|<f6>|<f7>"];
+stack222 [label="<f3>|<f4>|<f5>|<f6>f(4)|<f7>f(5)"];
+
+stack231 [label="<f5>|<f6>|<f7>"];
+stack232 [label="<f3>|<f4>|<f5>f(3)|<f6>f(4)|<f7>f(5)"];
+
+stack241 [label="<f5>|<f6>|<f7>"];
+stack242 [label="<f3>|<f4>f(2)|<f5>f(3)|<f6>f(4)|<f7>f(5)"];
+
+stack251 [label="<f5>|<f6>|<f7>"];
+stack252 [label="<f3>f(1)|<f4>f(2)|<f5>f(3)|<f6>f(4)|<f7>f(5)"];
+
+stack261 [label="<f5>|<f6>|<f7>1"];
+stack262 [label="<f3>|<f4>f(2)|<f5>f(3)|<f6>f(4)|<f7>f(5)"];
+
+stack271 [label="<f5>|<f6>|<f7>1"];
+stack272 [label="<f3>f(0)|<f4>f(2)|<f5>f(3)|<f6>f(4)|<f7>f(5)"];
+
+stack281 [label="<f5>|<f6>0|<f7>1"];
+stack282 [label="<f3>|<f4>f(2)|<f5>f(3)|<f6>f(4)|<f7>f(5)"];
+
+stack291 [label="<f5>|<f6>|<f7>0 + 1"];
+stack292 [label="<f3>|<f4>|<f5>f(3)|<f6>f(4)|<f7>f(5)"];
+
+stack301 [label="<f5>|<f6>|<f7>1"];
+stack302 [label="<f3>|<f4>f(1)|<f5>f(3)|<f6>f(4)|<f7>f(5)"];
+
+stack211 -> stack221 -> stack231 -> stack241 -> stack251 -> stack261 -> stack271 -> stack281 -> stack291 -> stack301 [style = invis]
+stack212 -> stack222 -> stack232 -> stack242 -> stack252 -> stack262 -> stack272 -> stack282 -> stack292 -> stack302 [style = invis]
+}
