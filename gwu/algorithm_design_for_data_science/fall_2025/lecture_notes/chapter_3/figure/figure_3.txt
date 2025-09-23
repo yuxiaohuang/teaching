@@ -1,0 +1,33 @@
+digraph graphname {
+    a [label="4 (0 : 9)"];
+    b [label="1 (0 : 3)"];
+    c [label="7 (5 : 9)"];
+    d [label="0 (0 : 0)"];
+    e [label="2 (2 : 3)"];
+    f [label="5 (5 : 6)"];
+    g [label="8 (8 : 9)"];
+    h [style=invis];
+    i [style=invis];
+    j [style=invis];
+    k [label="3 (3 : 3)"];
+    l [style=invis];
+    m [label="6 (6 : 6)"];
+    n [style=invis];
+    o [label="9 (9 : 9)"];
+
+
+    a -> b;
+    a -> c [color=red];
+    b -> d;
+    b -> e;
+    c -> f [color=red];
+    c -> g;
+    d -> h [style=invis];
+    d -> i [style=invis];
+    e -> j [style=invis];
+    e -> k;
+    f -> l [style=invis];
+    f -> m [color=red];
+    g -> n [style=invis];
+    g -> o;
+ }
