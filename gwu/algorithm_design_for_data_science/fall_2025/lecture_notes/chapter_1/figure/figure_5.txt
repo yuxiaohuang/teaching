@@ -1,0 +1,48 @@
+digraph graphname {
+    a [label="f(5)"];
+    b [label="f(4)"];
+    c [label="f(3)"];
+    d [label="f(3)"];
+    e [label="f(2)"];
+    f [label="f(2)"];
+    g [label="f(2)"];
+    h [label="f(1)"];
+    i [label="f(1)"];
+    j [label="f(1)"];
+    k [label="f(1)"];
+    l [label="f(1)"];
+    m [label="1"];
+    n [label="1"];
+    o [label="1"];
+    p [label="1"];
+    q [label="1"];
+    r [label="f(0)"];
+    s [label="f(0)"];
+    t [label="f(0)"];
+    u [label="0"];
+    v [label="0"];
+    w [label="0"];
+
+    a -> b;
+    a -> c;
+    b -> d;
+    b -> e;
+    c -> f;
+    c -> h;
+    d -> g;
+    d -> i;
+    e -> j;
+    e -> r;
+    f -> k;
+    f -> s;
+    h -> m;
+    g -> l;
+    g -> t;
+    i -> n;
+    j -> o;
+    k -> p;
+    l -> q;
+    r -> u;
+    s -> v;
+    t -> w;
+ }
